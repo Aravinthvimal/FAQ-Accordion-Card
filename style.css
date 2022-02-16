@@ -2,11 +2,19 @@
     #card-box {
         background-color: white;
         height: 70vh;
-        padding: 1.4rem 1.25rem 1.4rem 0;
+        padding: 2.3rem 1.25rem 1.4rem 0;
         background-image: url("./images/bg-pattern-desktop.svg");
         background-size: 90%;
         background-position: -420% 65%;
         background-repeat: no-repeat;
+    }
+
+    .question-box h3 {
+        font-size: large;
+    }
+
+    .question-box p {
+        font-size: 16px;
     }
 }
 
@@ -21,14 +29,22 @@
         background-position: center 0%;
         background-size: 15rem;
     } 
+
+    .question-box h3 {
+        font-size: small;
+    }
+
+    .question-box p {
+        font-size: x-small;
+    }
 }
 
+
+
 .question-box h3 {
-    font-size: 14px;
     color: hsl(240, 6%, 50%);
 }
 
 .question-box p {
-    font-size: 12px;
     color: hsl(240, 6%, 50%);
 }
